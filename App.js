@@ -14,6 +14,7 @@ export default class ButtonBasics extends Component {
   render() {
     console.log("hello");
     return (
+
       <View style={styles.container}>
           <Text style={styles.bigBlue}>1</Text>
           <Text style={styles.red}>2</Text>
@@ -37,7 +38,9 @@ export default class ButtonBasics extends Component {
             data={[{ key: 'a'},{ key: 'b'}]}
             renderItem={({ item }) => <Text>{item.key}</Text>}
           />
+          
       </View>
+ 
     );
   }
 }
